@@ -1,0 +1,872 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RobiSim"
+    android:padding="10dp"
+    android:background="#B60000"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="ROBI SIM"
+                    android:gravity="center"
+                    android:textColor="#B60000"
+                    android:textSize="30dp"
+                    android:textStyle="bold|italic"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/rbi"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Balance Check"
+                        android:textColor="#B60000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC1"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*222#"
+                            android:textColor="#B60000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/rbi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Sim Number"
+                        android:textColor="#B60000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC2"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*140*2*4#"
+                            android:textColor="#B60000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/rbi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Package Check"
+                        android:textColor="#B60000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC3"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*140*14#"
+                            android:textColor="#B60000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/rbi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Internet Balance"
+                        android:textColor="#B60000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC4"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*8444*88#"
+                            android:textColor="#B60000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/rbi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Robi Minute"
+                        android:textColor="#B60000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC5"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*222*3#"
+                            android:textColor="#B60000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/rbi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SMS Check"
+                        android:textColor="#B60000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC6"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*222*11#"
+                            android:textColor="#B60000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy6"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond6"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/rbi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="MMS Check"
+                        android:textColor="#B60000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC7"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*222*13#"
+                            android:textColor="#B60000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy7"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond7"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/rbi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Internet Package"
+                        android:textColor="#B60000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC8"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*8444#"
+                            android:textColor="#B60000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/rbi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Emergency Balance"
+                        android:textColor="#B60000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC9"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*222#"
+                            android:textColor="#B60000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:layout_marginLeft="2dp"
+                        android:src="@drawable/rbi" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="All service Off"
+                        android:textColor="#B60000"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC10"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*9#"
+                            android:textColor="#B60000"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy10"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond10"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

@@ -1,0 +1,1141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BanglalinkSim"
+    android:padding="10dp"
+    android:background="#FF5723"
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="BANGLALINK SIM"
+                    android:gravity="center"
+                    android:textColor="#FF5723"
+                    android:textSize="30dp"
+                    android:textStyle="bold|italic"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Balance Check"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC1"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*124#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Sim Number"
+                        android:textColor="#FF5723"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC2"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*511#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+                        <Button
+                            android:id="@+id/bcopy2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Package Check"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC3"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*125#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Internet Balance 1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC4"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*124*5#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Internet Balance 2"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC5"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*222*3#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="banglalink Minute"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC6"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*124*2#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy6"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond6"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SMS Check"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC7"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*124*3#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy7"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond7"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bl to Bl Transfer Code"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC8"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*1000#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mb Minute Pack"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC9"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*888#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Emergency Balance"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC10"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*874#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+                        <Button
+                            android:id="@+id/bcopy10"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond10"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Emergency Intenet"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC11"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*875#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+                        <Button
+                            android:id="@+id/bcopy11"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond11"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Emergency Minute"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC12"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*874*10#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy12"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond12"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/banglalinkp"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="All service Off"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF5723"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC13"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*121*7*1*2*1#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy13"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond13"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

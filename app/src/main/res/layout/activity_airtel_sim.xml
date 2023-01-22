@@ -1,0 +1,882 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AirtelSim"
+    android:padding="10dp"
+    android:background="@drawable/two_color"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="AIRTEL SIM"
+                    android:gravity="center"
+                    android:textColor="#FF0000"
+                    android:textSize="30dp"
+                    android:textStyle="bold|italic"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/airtel"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:drawableRight="@drawable/ic_baseline_call_24"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Balance Check"
+                        android:textColor="#FF0000"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC1"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*778#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                             />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/airtel"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Sim Number"
+                        android:textColor="#FF0000"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC2"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*121*6*3#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/airtel"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Internet Check 1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF0000"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC3"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*778*39#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+                        <Button
+                            android:id="@+id/bcopy3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/airtel"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Internet Check 2"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF0000"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC4"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*121*6*3#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/airtel"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Airtel Minute Check 1"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF0000"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC5"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*778*5#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/airtel"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Airtel Minute Check 2"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF0000"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC6"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*778*8#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy6"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond6"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/airtel"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="SMS Check"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF0000"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC7"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*778*2#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy7"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond7"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/airtel"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="MMS Check"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF0000"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC8"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*222*13#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/airtel"
+                       android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="All Services Off"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF0000"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC9"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*9#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/bottom_shade"
+                android:layout_marginTop="20sp"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="73dp"
+                        android:src="@drawable/airtel"
+                        android:layout_marginLeft="2dp"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Emergency Balance"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="5dp"
+                        android:textColor="#FF0000"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC10"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*141*100#"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:textColor="#FF0000"
+                            />
+                        <Button
+                            android:id="@+id/bcopy10"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond10"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>

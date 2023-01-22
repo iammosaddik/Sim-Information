@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TeletalkSim"
+    android:padding="10dp"
+    android:background="@drawable/tele"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@drawable/three_color"
+                android:layout_marginBottom="10dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TELETALK SIM"
+                    android:gravity="center"
+                    android:textColor="#328504"
+                    android:textSize="30dp"
+                    android:textStyle="bold|italic"
+                    />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/teletalk" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Balance Check"
+                        android:textColor="#328504"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC1"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*152#"
+                            android:textColor="#328504"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond1"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/teletalk" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Sim Number"
+                        android:textColor="#328504"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC2"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*551#"
+                            android:textColor="#328504"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <Button
+                            android:id="@+id/buttond2"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/teletalk" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="All Package Check"
+                        android:textColor="#328504"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC3"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*121#"
+                            android:textColor="#328504"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond3"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/teletalk" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Internet Balance"
+                        android:textColor="#328504"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC4"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*152#"
+                            android:textColor="#328504"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <Button
+                            android:id="@+id/buttond4"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/teletalk" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Teletalk Minute Check"
+                        android:textColor="#328504"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC5"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*152#"
+                            android:textColor="#328504"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            tools:ignore="SpeakableTextPresentCheck" />
+
+                        <Button
+                            android:id="@+id/buttond5"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/teletalk"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="SMS Check"
+                        android:textColor="#328504"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC6"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*152#"
+                            android:textColor="#328504"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy6"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond6"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal"
+                >
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/teletalk"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical"
+                    >
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="All Services Off"
+                        android:textColor="#328504"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC7"
+                            android:layout_width="155dp"
+                            android:layout_height="70dp"
+                            android:text="এসএমএস অপশনে যান Type (STOP ALL) sent 335"
+                            android:textColor="#328504"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            />
+
+                        <Button
+                            android:id="@+id/bcopy7"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+
+                            />
+
+                        <Button
+                            android:id="@+id/buttond7"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="140dp"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/teletalk" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Offer Offer"
+                        android:textColor="#FF0000"
+                        android:textSize="25sp"
+                        android:textStyle="bold|italic" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="Emergency Balance"
+                        android:textColor="#328504"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC8"
+                            android:layout_width="160dp"
+                            android:layout_height="wrap_content"
+                            android:text="*1122# 10/12/20/30 or 50 taka code (*1122*10#,*1122*12#,*11222*20#,*1122*30#,*1122*50#)"
+                            android:textColor="#328504"
+                            android:textSize="15sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            android:layout_marginTop="30dp"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond8"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="30dp"
+                            />
+
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:background="@drawable/bottom_shade"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+
+                    >
+
+                    <ImageView
+                        android:layout_width="90dp"
+                        android:layout_height="60dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="8dp"
+                        android:src="@drawable/teletalk" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="Tele to Tele tk Transfer"
+                        android:textColor="#328504"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="65dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:id="@+id/ablanceC9"
+                            android:layout_width="155dp"
+                            android:layout_height="wrap_content"
+                            android:text="*124*12345678*taka*number#"
+                            android:textColor="#328504"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            />
+                        <Button
+                            android:id="@+id/bcopy9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="45dp"
+
+                            android:background="@drawable/ic_baseline_content_copy_24"
+                            android:layout_marginTop="10dp"
+                            />
+
+                        <Button
+                            android:id="@+id/buttond9"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:background="@drawable/ic_baseline_call_24"
+                            android:layout_marginLeft="15dp"
+                            android:layout_marginTop="10dp"
+                            />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
